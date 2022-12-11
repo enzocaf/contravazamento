@@ -22,7 +22,7 @@ void LeBotao(bool *desligado){ // Leitura do botao de Desligar/Ligar
     if(!*desligado){
       *desligado = 1;
       delay(1000);
-      }else{
+    }else{
       *desligado = 0;
       delay(1000);  
       }
