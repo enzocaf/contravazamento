@@ -14,7 +14,7 @@ LiquidCrystal lcd(8, 9, 10, 11, 12, 13); // Portas usadas pelo LCD
 #define MAX_VERDE 100
 #define MAX_AMARELO 150
 
-char numero[] = "+5583981824163"; // Número do dono
+char numero[] = "+55XXXXXXXXXXX"; // Número do dono
 char mensagem[] = "Vazamento de gas na sua residencia"; // Mensagem enviada no vazamento
 
 void LeBotao(bool *desligado){ // Leitura do botao de Desligar/Ligar
